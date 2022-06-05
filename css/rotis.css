@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'RotisSemiSerifPro';
+    src: local('RotisSemiSerifPro'), url(./fonts/RotisSemiSerifStd.otf) format('otf');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
