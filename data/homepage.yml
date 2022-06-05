@@ -4,7 +4,7 @@ head:
 # showcase
 showcase:
   enable: true
-  subtitle: "Mission"
+  title: "Mission"
   description: "To provide a high quality customer focused integrated logistics service, processing and delivering products in a safe, efficient, cost effective and friendly manner."
   image:
     x: "img/tipper_truck.jpeg"

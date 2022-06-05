@@ -12681,11 +12681,8 @@ textarea:focus {
     .rad-showcase__bg {
         display: -webkit-box;
         display: flex;
-        right: -50px
-    }
-
-    .rad-showcase__bg img {
-        width: auto
+        right: -50px;
+        height: auto;
     }
 }
 
