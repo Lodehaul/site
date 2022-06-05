@@ -1,0 +1,79 @@
+baseURL = "https://lodehaul.github.io/site/"
+languageCode = "en-au"
+theme = "raditian-free-hugo-theme-no-git"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+
+  [[menu.header]]
+  name = "Road Transport"
+  URL = "#portfolio"
+  weight = 1
+
+  [[menu.header]]
+  name = "Shipping Services"
+  URL = "shipping"
+  weight = 2
+
+  [[menu.header]]
+  name = "Agriculture"
+  URL = "agricultural"
+  weight = 3
+
+  [[menu.header]]
+  name = "Branches"
+  URL = "branches"
+  weight = 4
+
+  [[menu.header]]
+  name = "Opportunities"
+  URL = "opportunities"
+  weight = 5
+
+  [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 6
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Lodehaul"
+
+  [params.footer]
+      copyright = "Copyright © 2004 - 2022 Lodehaul. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/brand/logo.png"
+        _2x = "img/brand/logo.png"
+        alt = "Lodehaul Logo"

@@ -1,0 +1,207 @@
+head:
+  title: 'Welcome to Lodehaul'
+
+# showcase
+showcase:
+  enable: true
+  subtitle: "Mission"
+  description: "To provide a high quality customer focused integrated logistics service, processing and delivering products in a safe, efficient, cost effective and friendly manner."
+  image:
+    x: "img/tipper_truck.jpeg"
+    _2x: "img/tipper_truck.jpeg"
+  imageMobile:
+    x: "img/tipper_truck.jpeg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "contact/"
+
+# about
+about:
+  enable: true
+  title: "Service Capabilities"
+  content: '
+  <ul>
+    <li>Total Supply Chain Management </li>
+    <li>Ship Discharge and Loading</li>
+    <li>General Transport Services </li>
+    <li>Storage and Processing</li>
+    <li>Screening and Bagging</li>
+    <li>Logistics Management Services</li>
+    <li>Agricultural Commodities</li>
+    <li>Dry and Refrigerated Transport</li>
+  </ul>
+  '
+  button:
+    btnText: "Learn more"
+    URL: "about"
+  image:
+    x: "img/truck_fleet.jpeg"
+  imageMobile:
+    x: "img/truck_fleet.jpeg"
+
+# education
+education:
+  enable: true
+  title: "Locations"
+  items:
+    - university: "Sydney"
+      degree: "Warehousing and distribution"
+
+    - university: "Port Kembla"
+      degree: ""
+      
+    - university: "Cootamundra"
+      degree: "Road haulage and base for South West Agricultural Commodities"
+
+    - university: "Coolamon"
+      degree: ""
+# experience
+# experience:
+#   enable: true
+#   title: "Experience"
+#   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+#   button:
+#     icon: "icon-linkedin-fill"
+#     btnText: "Linkedin"
+#     URL: "https://www.linkedin.com/company/radity/"
+#   button2:
+#     icon: "icon-profile-fill"
+#     btnText: "Download My Resume"
+#     URL: "#"
+
+#   items:
+#     - title: "Sr. Front-End Developer"
+#       company: "Radity"
+#       duration: "Feb 2011 - Sep 2019"
+
+#     - title: "Sr. Front-End Developer"
+#       company: "Textic"
+#       duration: "Apr 2010 - Jan 2011"
+
+#     - title: "Jr. Front-End Developer"
+#       company: "Cyberse"
+#       duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  # works:
+  #   - title: "Radity Finance - UI Kit"
+  #     description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/radity-finance.jpg"
+  #       _2x: "img/works/radity-finance@2x.jpg"
+  #     is_even: true
+
+  #   - title: "Swiss Fintech Website"
+  #     description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/swissfintech.jpg"
+  #       _2x: "img/works/swissfintech@2x.jpg"
+  #     is_even: false
+
+  #   - title: "Robo Advisor"
+  #     description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+  #     button:
+  #       icon: "icon-arrow-right"
+  #       btnText: "Case Study"
+  #       URL: "#"
+  #     image:
+  #       x: "img/works/robo-advisor.jpg"
+  #       _2x: "img/works/robo-advisor@2x.jpg"
+  #     is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: "Marc Mendola"
+      position: "Google Reviews"
+      content: "Great staff"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Google Reviews"
+      content: "This company is great to deal with. The price was a bit high, but the service was very fast. I would definitely refer this company to anyone. Thank you for all your help. You guys make the job easier. Thanks!"
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "LinkedIn"
+      content: "Great service from such a small company. Their prices are very reasonable. I received my shipment in a very timely manner. Thank you for your great service !"
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "(02) 4275 1115"
+  email:
+    title: "Email"
+    email: '<a href="mailto:sales@lodehaul.com">sales@lodehaul.com</a>'
+  address:
+    title: "Address"
+    address: "190 Shellharbour Rd<br/> Warrawong NSW<br/> 2505"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
